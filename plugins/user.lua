@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "tpope/vim-fugitive",
+  },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    config = function() require("catppuccin").setup {} end,
+  },
 }
